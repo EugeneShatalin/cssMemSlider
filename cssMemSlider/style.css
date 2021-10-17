@@ -279,3 +279,33 @@ input {
     height: 20px;
   }
 }
+
+@media (max-width: 550px) {
+  .slider {
+    padding: 5px 10px 10px 10px;
+    width: 95%;
+  }
+
+  .string1,
+  .string2,
+  .string3,
+  .string4 {
+    font-size: 16px;
+  }
+
+  #btn1:checked ~ .string1 {
+    height: 20px;
+  }
+
+  #btn2:checked ~ .string2 {
+    height: 20px;
+  }
+
+  #btn3:checked ~ .string3 {
+    height: 20px;
+  }
+
+  #btn4:checked ~ .string4 {
+    height: 20px;
+  }
+}
