@@ -230,8 +230,6 @@ input {
   .slider {
     width: 75%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     flex-wrap: nowrap;
     padding: 10px 15px 15px 15px;
 
