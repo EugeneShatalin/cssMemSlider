@@ -225,3 +225,57 @@ input {
     height: 30px;
   }
 }
+
+@media (max-width: 1200px) {
+  .slider {
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 10px 15px 15px 15px;
+
+  }
+
+  .string1,
+  .string2,
+  .string3,
+  .string4 {
+    order: 1;
+    align-self: auto;
+    font-size: 22px;
+  }
+
+  #btn1:checked ~ .string1 {
+    height: 25px;
+  }
+
+  #btn2:checked ~ .string2 {
+    height: 25px;
+  }
+
+  #btn3:checked ~ .string3 {
+    height: 25px;
+  }
+
+  #btn4:checked ~ .string4 {
+    height: 25px;
+  }
+
+  .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    align-self: auto;
+  }
+
+  .button {
+    width: 15px;
+    height: 15px;
+  }
+
+  #button-label {
+    width: 20px;
+    height: 20px;
+  }
+}
