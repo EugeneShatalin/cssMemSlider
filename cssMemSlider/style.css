@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(59, 64, 70);
+}
+
+input {
+  display: none;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 30px 60px 60px 60px;
+  overflow: hidden;
+  background-color: rgb(59, 64, 70);
+}
+
+.slider-img1 {
+  background: no-repeat url("./mems/mem1.jpg");
+}
+
+.slider-img2 {
+  background: no-repeat url("./mems/mem2.jpg");
+}
+.slider-img3 {
+  background: no-repeat url("./mems/mem3.jpg");
+}
+.slider-img4 {
+  background: no-repeat url("./mems/mem4.jpg");
+}
+
+.slider-img1,
+.slider-img2,
+.slider-img3,
+.slider-img4 {
+  width: 0;
+  height: 0;
+  background-size: contain;
+  background-position: center;
+  background-color: slategrey;
+  transition: all 1s ease;
+}
+
+.string1,
+.string2,
+.string3,
+.string4 {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  font-size: 30px;
+  color: aliceblue;
+  align-self: flex-end;
+  transition: opacity 1.5s ease;
+  margin: 0;
+  padding: 0;
+}
