@@ -65,3 +65,120 @@ input {
   margin: 0;
   padding: 0;
 }
+
+#btn1:checked ~ .slider-img1 {
+  width: 100%;
+  height: 90%;
+}
+
+#btn1:checked ~ .buttons .b1 {
+  background-color: rgb(15, 39, 2);
+}
+
+#btn1:hover ~ .buttons .b1 {
+  background-color: rgb(15, 128, 0);
+}
+
+#btn1:active ~ .buttons .b1 {
+  background-color: rgb(9, 77, 0);
+}
+
+#btn2:checked ~ .slider-img2 {
+  width: 100%;
+  height: 90%;
+}
+
+#btn2:checked ~ .buttons .b2 {
+  background-color: rgb(15, 39, 2);
+}
+
+#btn2:hover ~ .buttons .b2 {
+  background-color: rgb(15, 128, 0);
+}
+
+#btn2:active ~ .buttons .b2 {
+  background-color: rgb(9, 77, 0);
+}
+
+#btn3:checked ~ .slider-img3 {
+  width: 100%;
+  height: 90%;
+}
+
+#btn3:checked ~ .buttons .b3 {
+  background-color: rgb(15, 39, 2);
+}
+
+#btn3:hover ~ .buttons .b3 {
+  background-color: rgb(15, 128, 0);
+}
+
+#btn3:active ~ .buttons .b3 {
+  background-color: rgb(9, 77, 0);
+}
+
+#btn4:checked ~ .slider-img4 {
+  width: 100%;
+  height: 90%;
+}
+
+#btn4:checked ~ .buttons .b4 {
+  background-color: rgb(15, 39, 2);
+}
+
+#btn4:hover ~ .buttons .b4 {
+  background-color: rgb(15, 128, 0);
+}
+
+#btn4:active ~ .buttons .b4 {
+  background-color: rgb(9, 77, 0);
+}
+
+#btn1:checked ~ .string1 {
+  width: auto;
+  height: 35px;
+  opacity: 1;
+}
+
+#btn2:checked ~ .string2 {
+  width: auto;
+  height: 35px;
+  opacity: 1;
+}
+
+#btn3:checked ~ .string3 {
+  width: auto;
+  height: 35px;
+  opacity: 1;
+}
+
+#btn4:checked ~ .string4 {
+  width: auto;
+  height: 35px;
+  opacity: 1;
+}
+
+.button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+#button-label {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  height: 55px;
+}
