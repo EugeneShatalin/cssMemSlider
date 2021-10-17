@@ -1,0 +1,1 @@
+https://eugeneshatalin.github.io/cssMemSlider/cssMemSlider/
