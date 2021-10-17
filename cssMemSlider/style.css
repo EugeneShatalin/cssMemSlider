@@ -182,3 +182,46 @@ input {
   align-self: flex-end;
   height: 55px;
 }
+
+@media (max-width: 1920px) {
+  .slider {
+    padding: 15px 30px 30px 30px;
+    width: 70%;
+  }
+  .string1,
+  .string2,
+  .string3,
+  .string4 {
+    font-size: 25px;
+  }
+
+  #btn1:checked ~ .string1 {
+    height: 28px;
+  }
+
+  #btn2:checked ~ .string2 {
+    height: 28px;
+  }
+
+  #btn3:checked ~ .string3 {
+    height: 28px;
+  }
+
+  #btn4:checked ~ .string4 {
+    height: 28px;
+  }
+
+  .buttons {
+    height: 30px;
+  }
+
+  .button {
+    width: 20px;
+    height: 20px;
+  }
+
+  #button-label {
+    width: 30px;
+    height: 30px;
+  }
+}
